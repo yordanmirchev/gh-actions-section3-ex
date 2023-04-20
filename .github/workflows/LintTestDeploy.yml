@@ -27,7 +27,7 @@ jobs:
           node-version: 18
       - name: Install dependences
         run: npm ci
-      - name: Run lint
+      - name: Run tests
         run: npm run test
 
   deploy:
