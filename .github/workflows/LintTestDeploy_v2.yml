@@ -1,4 +1,4 @@
-name: Update project
+name: Update project(paralel)
 on: push
 jobs:
   lint:
